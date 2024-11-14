@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Tailwind build files
+/styles/tailwind.css
+
+# Spring Boot
+/target/
+/*.jar
+/*.war
+.mvn/
+.idea/
+.vscode/
+
+# Docker
+.docker/
+
+# PostgreSQL
+*.db
+
+# IntelliJ IDEA
+.idea/
+
+# VS Code
+.vscode/
+
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+Thumbs.db
+.DS_Store
