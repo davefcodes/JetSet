@@ -37,3 +37,5 @@ yarn-error.log*
 Thumbs.db
 .DS_Storebackend/JourneyManager/src/main/resources/application-dev.properties
 backend/JourneyManager/src/main/resources/application-main.properties
+
+.DS_Store 
