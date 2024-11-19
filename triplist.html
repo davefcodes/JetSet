@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/styles/tailwind.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Display Trips</title>
+</head>
+<body class="bg-sky-200">
+    <div class="flex justify-start items-start pl-16 pt-4 h-28 ">
+        <img src="frontend/img/jetsetlogo.svg" class = "h-24" alt="logo">
+    </div>
+    <div class="container mx-auto p-6 rounded bg-sky-300 space-y-4">
+        <div class="flex flex-row justify-between">
+            <h1 class="text-2xl/loose font-bold font-workSans">
+                Your Available Trips
+            </h1>
+            <a href="#" class="ml-auto p-3 px-6 text-black bg-white rounded-full baseline hover:bg-sky-200 font-workSans flex items-center">
+                <!-- <img src="frontend/img/addicon.svg" class="h-14 hover:bg-sky-200" alt=""> -->
+                <span>Add New Trip</span>
+            </a>
+        </div>
+        <div  id ="trip-list" class="container mx-auto p-6"></div>
+    </div>
+    <script src="frontend/scripts/main.js"></script>
+</body>
+</html>
