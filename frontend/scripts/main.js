@@ -1,4 +1,4 @@
-fetch("frontend/trips.json")
+fetch("../data/trips.json")
     .then((response) => response.json())
     .then((trips) => {renderTrips(trips);})
     .catch((error) => console.error("Error fetching trips:", error));
