@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/tailwind.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Add Trips</title>
+</head>
+<body class ="bg-sky-200">
+    <div class="flex justify-start items-start pl-16 pt-4 h-28 ">
+        <img src="../img/jetsetlogo.svg" class = "h-24" alt="logo">
+    </div>
+
+    <div class="container mx-auto p-4 bg-white rounded space-y-4 justify-center items-center">
+        <h2 class="font-xl font-bold font-workSans mx-auto">
+            Create a new trip itinerary
+        </h2>
+        <hr>
+        <div class="bg-white shadow-md rounded-lg p-6 mb-4 w-96 mx-auto">
+            <div>
+                <label for="destination" class="block text-base mb-2 font-workSans">Where are you going?</label>
+                <input type="text" id="destination" class="border w-full rounded text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-700" placeholder="City, Country...">
+            </div>
+
+            <div class = "mt-6">
+                <label for="reason" class="block text-base mb-2 font-workSans">Purpose of your trip?</label>
+                <input type="text" id="reason" class="border w-full rounded text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-700" placeholder="Reason...">
+            </div>
+
+            <div class ="mt-6">
+                <label for="arrival-date" class="block text-base mb-2 font-workSans">When are you going?</label>
+                <input type="text" id="arrival-date" class="border w-full rounded text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-700" placeholder="MM/DD/YY">
+            </div>
+
+            <div class ="mt-6">
+                <label for="departure-date" class="block text-base mb-2 font-workSans">When do you return?</label>
+                <input type="text" id="arrival-date" class="border w-full rounded text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-700" placeholder="MM/DD/YY">
+            </div>
+
+            <div class ="mt-6">
+                <label for="budget" class="block text-base mb-2 font-workSans">Intended budget for your trip</label>
+                <input type="text" id="budget" class="border w-full rounded text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-700" placeholder="$">
+            </div>
+
+            <div class="flex flex-row mt-6">
+                <a href="#" class="mx-auto p-3 px-6 pt-2 text-black bg-sky-300 rounded-full baseline hover:bg-sky-200 font-workSans">Submit</a>
+                <a href="#" class="mx-auto p-3 px-6 pt-2 text-black bg-sky-300 rounded-full baseline hover:bg-sky-200 font-workSans">Cancel</a>
+            </div>
+        </div> 
+    </div>
+    
+</body>
+</html>
